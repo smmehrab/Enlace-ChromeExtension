@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "name":"Enlace",
+    "description":"Efficiently Save & Manage Important Links so that you don't have to open hundreds of browser tabs.",
+    "version":"1.0",
+    "background":{
+        "scripts": ["./src/scripts/backgroundScript.js"]
+    },
+    "icons": {
+      "16": "./src/icons/icon16.png",
+      "48": "./src/icons/icon48.png",
+      "128": "./src/icons/icon128.png"
+    },
+    "browser_action":{
+        "default_popup": "./src/popup/popup.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["./src/scripts/contentScript.js"]
+        }
+      ],
+      "permissions": [
+        "tabs", "storage", "unlimitedStorage"
+      ]
+}
