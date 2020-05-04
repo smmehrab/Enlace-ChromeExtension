@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlace</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/popup.css">
+    <script type="text/javascript" src="chrome-extension-async.js"></script>
+    <script src="scripts/app.js" defer></script>
+</head>
+
+<body>
+    <div class="save">
+        <div>
+            <a href="" class="btn tooltip">
+                <i class="material-icons large saveCurrent">
+                    toll
+                </i>
+                <span class="tooltiptext">
+                    Save Current
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="toolbar">
+        <a href="" class="btn tooltip">
+            <i class="material-icons settingsIcon">settings</i>
+            <span class="tooltiptext">Settings</span>
+        </a>
+        <a href="" class="btn tooltip">
+            <i class="material-icons folderAddIcon">create_new_folder</i>
+            <span class="tooltiptext">New Folder</span>
+        </a>
+        <a href="" class="btn tooltip">
+            <i class="material-icons itemAddIcon">insert_link</i>
+            <span class="tooltiptext">New Link</span>
+        </a>
+    </div>
+
+    <div class="collection">
+        <a href="" class="item row" draggable="true">
+            <span class="link">Link 1Link 1Link 1Link 1Link 1Link 1Link 1Link 1Link 1L</span>
+            <input placeholder="Enter URL" class="linkInput" type="text">
+            <i class="material-icons itemDelete">delete</i>
+            <i class="material-icons itemEdit">edit</i>
+            <i class="material-icons itemShare">share</i>
+        </a>
+        <a href="" class="item" draggable="true">
+            <span class="link">Link 1</span>
+            <input placeholder="Enter URL" class="linkInput" type="text">
+            <i class="material-icons itemDelete">delete</i>
+            <i class="material-icons itemEdit">edit</i>
+            <i class="material-icons itemShare">share</i>
+        </a>
+        <ul class="folderList">
+            <li class="folder" draggable="false">
+                <a href="" class="btn">
+                    <span class="folderName">Research1</span>
+                    <input placeholder="Enter URL" class="folderInput" type="text">
+                    <i class="material-icons folderExpand">keyboard_arrow_down</i> 
+                    <i class="material-icons folderEdit">edit</i>
+                    <i class="material-icons folderDelete">delete</i>
+                    <i class="material-icons folderItemAdd">insert_link</i>
+                </a>                
+                <div class="itemList">
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                </div>
+            </li>
+            <li class="folder" draggable="false">
+                <a href="" class="btn">
+                    <span class="folderName">Research2</span>
+                    <input placeholder="Enter URL" class="folderInput" type="text">
+                    <i class="material-icons folderExpand">keyboard_arrow_down</i> 
+                    <i class="material-icons folderEdit">edit</i>
+                    <i class="material-icons folderDelete">delete</i>
+                    <i class="material-icons folderItemAdd">insert_link</i>
+                </a>
+                <div class="itemList">
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                </div>
+            </li>
+            <li class="folder" draggable="false">
+                <a href="" class="btn">
+                    <span class="folderName">Research3</span>
+                    <input placeholder="Enter URL" class="folderInput" type="text">
+                    <i class="material-icons folderExpand">keyboard_arrow_down</i> 
+                    <i class="material-icons folderEdit">edit</i>
+                    <i class="material-icons folderDelete">delete</i>
+                    <i class="material-icons folderItemAdd">insert_link</i>
+                </a>                
+                <div class="itemList">
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                    <a href="" class="item" draggable="true">
+                        <span class="link">Link 1</span>
+                        <input placeholder="Enter URL" class="linkInput" type="text">
+                        <i class="material-icons itemDelete">delete</i>
+                        <i class="material-icons itemEdit">edit</i>
+                        <i class="material-icons itemShare">share</i>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="statusDiv">
+        <p class="status"></p>
+    </div>
+
+</body>
+
+</html>
