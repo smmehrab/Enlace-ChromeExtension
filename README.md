@@ -1,2 +1,2 @@
 # enlace
-A Link Manager, personal fun project, for the sake of managing hundreds of browser tab links in an organized manner. 
+A Link Manager (Chrome Extension), that helps me to manage several links and reduce the number of tabs I open on my browser.
